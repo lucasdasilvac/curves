@@ -32,10 +32,10 @@ void Spline::setMode(SplineMode mode){
 
     if(mode == SplineMode::INTERPOLATOR){
         float Maux[4][4] = {
-            {1, 0, 0, 0},
-            {-5.5, 9, -4.5, 1},
+            {-4.5, 13.5, -13.5, 4.5},
             {9, -22.5, 18, -4.5},
-            {-4.5, 13.5, -13.5, 4.5}
+            {-5.5, 9, -4.5, 1},
+            {1, 0, 0, 0}
         };
 
         for(int i = 0; i<4; i++){

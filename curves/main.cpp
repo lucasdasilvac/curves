@@ -395,6 +395,12 @@ void key(unsigned char key, int x, int y){
     case 27:
         exit(0);
         break;
+    case '-':
+        spline->delta *= 2;
+        break;
+    case '=':
+        spline->delta *= 0.5;
+        break;
     case 'd':
         drawCurve = !drawCurve;
         break;
